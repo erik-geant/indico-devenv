@@ -63,8 +63,11 @@
   exit
   exit
 
+9. edit ``indico-dev.yml``
 
-9. run:
+  - uncomment all but the ``indico-launch`` role
+
+10. run:
 
 .. code:: bash
 
