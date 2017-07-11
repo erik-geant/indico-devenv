@@ -1,0 +1,16 @@
+---
+- hosts: all
+  roles:
+#    - indico
+#    - { role: indico-config, HOSTNAME: "192.87.30.44" }
+    - indico-launch
+
+
+
+
+
+
+
+
+
+
