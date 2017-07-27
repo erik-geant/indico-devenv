@@ -1,0 +1,17 @@
+# hints about bootstrapping a new debian vm
+# to get it ready for running the indico ansible role
+
+apt-get update -y
+apt-get install -y sudo
+apt-get install -y python-minimal
+
+# create a non-root user
+# add to sudoers without password,
+# e.g. create /etc/sudoers.d/90-username:
+username ALL=(ALL) NOPASSWD:ALL
+
+# note: during install the server should
+#       have a v4 address for apt cert
+#       verification
+
+
